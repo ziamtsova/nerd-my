@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>HTML Acagemy: Нёрдс</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
 </head>
 <body>
     <header class="main-header">
@@ -18,13 +21,13 @@
     <li><a href="#">Контакты</a></li>
 </ul>
 <ul class="user-navigation">
-    <li class="main-basket"><img src="img/svg-nerds/cart-icon.svg" width="15px" height="15px" alt="Картинка корзины"> Корзина</li>
+    <li class="main-basket"><img src="img/svg-nerds/cart-icon.svg" width="15" height="15" alt="Картинка корзины"><a href="#"> Корзина</a></li>
 </ul>
 </nav>
     </header>
 <main class="container">
     <div class="addition">
-<p><b>ДОЛГО, ДОРОГО, СКРУПУЛЁЗНО.</b></p>
+<p class="littering-1"><b>Долго, дорого, скрупулёзно.</b></p>
 Мателатически выверенный дизайн<br>
 для вашего сайта или мобильного приложения.
 </div>
@@ -36,26 +39,26 @@
         <img src="img/illustration-1.jpg" alt="Картинка №1 'ВЕБ-САЙТЫ'" width="300" height="146">
         <h1>Веб-сайты</h1>
         <p>Мир никогда не будет прежним после того как увидит ваш сайт!</p>
-        <p><button type="button" id="feature-button-one">Заказать</button></p>
+        <p><button type="button" class="feature-button-one">Заказать</button></p>
     </li>
     <li>
         <img src="img/illustration-2.jpg" alt="Картинка №2 'ПРИЛОЖЕНИЯ'" width="300" height="146" >
         <h1>Приложения</h1>
         <p>Покорите топ-10 приложений в AppStore и GooglePlay</p>
-        <p><button type="button" id="feature-button-two">Заказать</button></p>
+        <p><button type="button" class="feature-button-two">Заказать</button></p>
     </li>
     <li>
         <img src="img/illustration-3.jpg" alt="Картинка №3 'ПРЕЗЕНТАЦИИ'" width="300" height="146" >
         <h1>Презентации</h1>
         <p>Вы даже не подозреваете, насколько вы изумительны!</p>
-        <p><button type="button" id="feature-button-three">Заказать</button></p>
+        <p><button type="button" class="feature-button-three">Заказать</button></p>
     </li>
 </ul>
 </section>
 
 <section class="main-contacts">
-    <h3>МЫ - МАЛЕНЬКАЯ, НО ГОРДАЯ<br>
-    ДИЗАЙН-СТУДИЯ ИЗ КРАСНОДАРА.</h3>
+    <h3 class="littering-2">Мы - маленькая, но гордая<br>
+    дизайн-студия из Краснодара.</h3>
     Исповедуем принципы минимализма и чистоты. Ставим математический расчет<br>
     превыше креатива. Работаем не покладая рук, как роботы.
     <p><b>Выполняем заказы на разработку:</b></p>
@@ -96,7 +99,7 @@
 191186, Санкт-Петербург,<br>
 ул. Б. Конюшенная, д. 19/8
 <p>тел. +7 (812) 275-75-75</p>
-<button type="button">Напишите нам</button>
+<button type="button" class="button">Напишите нам</button>
 </article>
 <img src="img/map-marker.png" width="231" height="190" alt="Офис компании по адресу ул.Большая Конюшенная 19/8, Санкт-Петербург">
 </section>
@@ -112,18 +115,19 @@
         <input id="user-email" type="email" name="login" value="" placeholder="email@example.com">
     </p><br>
     <textarea name="comment" placeholder="В свободной форме"></textarea><br>
-    <button type="submit">Отправить</button>
+    <button type="submit" class="button">Отправить</button>
     </form>
 </section>
 </main>
 <footer>
         <ul class="social-networks">
-        <a href="#"><img src="img/svg-nerds/vk-icon.svg" width="20" height="20" alt="Вконтакте">Вконтакте</a>
-        <a href="#"><img src="img/svg-nerds/fb-icon.svg" width="20" height="20" alt="Фейсбук">Фейсбук</a>
-        <a href="#"><img src="img/svg-nerds/insta-icon.svg" width="20" height="20" alt="Инстаграм">Инстаграм</a>
+        <li><a href="#"><img src="img/svg-nerds/vk-icon.svg" width="30" height="30" alt="Вконтакте">Вконтакте</a></li>
+        <li><a href="#"><img src="img/svg-nerds/fb-icon.svg" width="30" height="30" alt="Фейсбук">Фейсбук</a></li>
+        <li><a href="#"><img src="img/svg-nerds/insta-icon.svg" width="30" height="30" alt="Инстаграм">Инстаграм</a></li>
+    </ul>  
     </div>
     <div class="discount">
-        <p><b>ДАВАЙТЕ ДРУЖИТЬ, ЭТО ВЫГАДНО!</b></p>
+        <p class="littering-3"><b>Давайте дружить, это выгодно!</b></p>
         Скидка 10% для друзей из социальных сетей
     </div>
 </footer>
