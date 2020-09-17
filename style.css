@@ -26,3 +26,30 @@ button:hover {
 button:active {
     background-color: #d7363b;
 }
+
+.main-header {
+    background-color: #eee;
+}
+
+.site-navigation li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.site-navigation li a:hover {
+    color: #ff535d;
+}
+
+.site-navigation li a:active {
+    color: #bbb;
+}
+
+.user-navigation li {
+    list-style-type: none;
+    font-size: 16px;
+    font-weight: 500;
+    color: black; 
+}
+
