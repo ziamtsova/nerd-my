@@ -1,0 +1,28 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, sans-serif;
+    font-size: 14px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+button {
+    font: inherit;
+    text-align: center;
+    color: white;
+    vertical-align: middle;
+    background-color: #fb565a;
+    border: none;
+}
+
+button:hover {
+    background-color: #e74246;
+}
+
+button:active {
+    background-color: #d7363b;
+}
